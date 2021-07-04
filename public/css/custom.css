@@ -1,0 +1,192 @@
+.sidebar i {
+    width: 20px;
+}
+
+.react-tel-input input[type=text],
+.react-tel-input input[type=tel] {
+    /* border: unset !important; */
+    border-radius: 0 !important;
+    border-right: 0 !important;
+}
+
+.Select-menu-outer {
+    z-index: 999 !important;
+}
+
+.ck.ck-dropdown .ck-dropdown__arrow {
+    z-index: 0 !important;
+}
+
+
+@media (min-width: 768px) {
+    .timeline-center .timeline-row-right {
+        margin-left: 25%;
+        padding-left: 2.75rem;
+    }
+
+    .timeline-container:before {
+        left: 25%;
+    }
+}
+
+.react-date-picker__wrapper,
+.react-daterange-picker__wrapper {
+    width: 100% !important;
+    border: none !important;
+}
+
+.car_photo {
+    object-fit: cover;
+}
+
+
+body {
+    font-family: 'Poppins' !important;
+    font-size: 0.9em !important;
+}
+
+.form-control {
+    font-size: 1em !important;
+}
+
+
+
+@media (min-width: 768px) {
+    .timeline-left .timeline-container:before {
+        left: 1.5em !important;
+        margin-left: 1px !important;
+    }
+
+    .timeline-center .timeline-row-full .timeline-time,
+    .timeline-center .timeline-row-right .timeline-time {
+        width: 30%;
+        ;
+    }
+
+}
+
+.note-frame .note-editing-area .note-editable {
+    margin-top: 20px;
+}
+
+
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    /* only if you want fixed height */
+}
+
+.Spreadsheet {
+    overflow: scroll !important;
+    width: 100%;
+}
+
+.form-control.material.select2>div:first-child {
+    border: none !important;
+    border-radius: 0px !important;
+    height: 100% !important;
+    min-height: unset !important;
+}
+
+.form-control.material.select2>span {
+    border: none !important;
+    border-radius: 0px !important;
+
+}
+
+.form-control.material.select2>div>div {
+    padding: 0px !important;
+}
+
+.form-control.material.select2 .css-1pahdxg-control {
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border-bottom: solid 1px;
+}
+
+
+a.blockbuilder-branding {
+    display: none !important;
+}
+
+.blockbuilder-tools-panel.sc-brqgnP .tab-content {
+    height: 100% !important;
+}
+
+.bg-red {
+    background-color: #FF0000;
+}
+.bg-yellow {
+    background-color: #FFFF00;
+}
+.bg-beige {
+    background-color: #F5F5DC;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: Black;
+}
+
+.text-red {
+    color: #FF0000;
+}
+.text-yellow {
+    color: #FFFF00;
+}
+.text-beige {
+    color: #F5F5DC;
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: Black;
+}
+.width_100 {
+    width: 100px !important;
+}
+#phone-verification-info td {
+    border-top: 1px dotted #ddd !important;
+    width: 50%;
+}
+
+.user-name-meta {
+    display: flex;
+    flex-flow: column;
+}
+
+.dropdown-user .user-name-meta p{
+    font-size: 0.8rem;
+}
+img.rounded-circle {
+    object-fit: cover;
+}
+.react-datetime-picker__wrapper {
+    border: 0 !important;
+}
+.input-group-prepend .input-group-text {
+    margin-right: 5px;
+}
+li.select2-search.select2-search--inline {
+    border-bottom: 1px solid rgb(169, 169, 169) !important;
+    padding-left: 5px !important;
+    width: 100% !important;
+}
+.react-confirm-alert-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.react-confirm-alert-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}

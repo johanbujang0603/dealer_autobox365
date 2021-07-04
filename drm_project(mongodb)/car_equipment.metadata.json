@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"drm_project.car_equipment"},{"v":2,"key":{"fk_car_equipment_car_modification":1},"name":"fk_car_equipment_car_modification_1","ns":"drm_project.car_equipment"},{"v":2,"key":{"id_car_type":1},"name":"id_car_type_1","ns":"drm_project.car_equipment"}],"uuid":"b09994dbdcae43f09e995f1f0d9abfc5"}

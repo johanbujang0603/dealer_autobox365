@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Console",
+    "\\app\\Events",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\resources\\js",
+    "\\resources\\js\\components",
+    "\\resources\\js\\components\\UserForm",
+    "\\resources\\js\\Lang",
+    "\\routes"
+  ],
+  "SelectedNode": "\\app\\Http\\Controllers\\Car2DBController.php",
+  "PreviewInSolutionExplorer": false
+}

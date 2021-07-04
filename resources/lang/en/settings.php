@@ -1,0 +1,25 @@
+<?php
+return [
+    'basic_settings' => 'Basic Settings',
+    'default_language' => 'Default Language',
+    'default_currency' => 'Default Currency',
+    'default_measure' => 'Default Measure',
+    'fiscal_year' => 'Fiscal Year',
+    'starts' => 'Starts',
+    'ends' => 'Ends',
+    'company_setting' => 'Company Setting',
+    'vat_number' => 'VAT Number',
+    'tax' => 'TAX',
+    'company_address' => 'Company Address',
+    'street' => 'Street',
+    'address' => 'Address',
+    'city' => 'City',
+    'state' => 'State',
+    'zipcode' => 'Zip Code',
+    'country' => 'Country',
+    'company_phone_number' => 'Company phone number',
+    'company_logo' => 'Company Logo',
+    'watermark_place' => 'Watermark Place',
+    'watermark_transparence' => 'Watermark Transparence',
+    'edit_profile' => 'Edit Profile'
+];
