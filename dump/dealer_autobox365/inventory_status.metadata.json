@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"dealer_autobox365.inventory_status"}],"uuid":"3f8399bf1a374058a3d693ca96f8af2c"}

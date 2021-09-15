@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"dealer_autobox365.valuation_data"}],"uuid":"4a7bfa2acf674398a20a0572fcde06d2"}

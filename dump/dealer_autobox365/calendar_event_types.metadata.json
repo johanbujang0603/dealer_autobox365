@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"dealer_autobox365.calendar_event_types"}],"uuid":"bceb2e754557451f93b85b1ac887f65c"}

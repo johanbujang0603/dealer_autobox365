@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"dealer_autobox365.transmissions"}],"uuid":"746ea3657bd84b7bbc47263d6efb81dc"}

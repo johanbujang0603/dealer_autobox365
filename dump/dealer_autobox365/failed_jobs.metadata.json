@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"dealer_autobox365.failed_jobs"}],"uuid":"11b6b0124926491a8a50d8822ba6f111"}

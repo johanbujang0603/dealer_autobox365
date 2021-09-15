@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"drm_project.car_generation"},{"v":2,"key":{"fk_car_generation_car_model":1},"name":"fk_car_generation_car_model_1","ns":"drm_project.car_generation"},{"v":2,"key":{"id_car_type":1},"name":"id_car_type_1","ns":"drm_project.car_generation"}],"uuid":"bf6ae193c43a45f19fb1bbb31b361ed7"}
