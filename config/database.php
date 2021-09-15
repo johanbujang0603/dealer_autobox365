@@ -102,9 +102,10 @@ return [
             ],
         ],
         'mongodb' => [
-            'driver'   => 'mongodb',
-            'dsn' => env('DB_DSN'),
-            'database' => env('DB_DATABASE'),
+		    'driver'   => 'mongodb',
+		    'host'     => env('DB_HOST', 'localhost'),
+		    'port'     => env('DB_PORT', 27017),
+		    'database' => env('DB_DATABASE', 'dealer_autobox365')
         ],
     ],
 

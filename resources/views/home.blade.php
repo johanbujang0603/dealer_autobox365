@@ -161,7 +161,9 @@
                                 <img src="{{ asset('images/icons/icons8-user-account-50.png') }}"/>
                                 <div class="ml-auto">
                                     <div class="report-box__indicator bg-theme-9 tooltip cursor-pointer" title="Conversion Rate">
+                                        @if ($total_customers + $total_leads > 0)
                                         {{$total_customers / ($total_customers + $total_leads) * 100}} %
+                                        @endif
                                     </div>
                                 </div>
                             </div>
@@ -357,9 +359,11 @@
                             <div class="font-medium">
                                 
                                 @if ($log->category=='leads')
+                                    @php
+                                    $name = isset($log->lead_details->name) ? $log->lead_details->name : '';
+                                    @endphp
                                     {!! __('actions.'.$log->action, ['user' => $log->user_details->full_name, 'model' =>
-                                    "<a class='text-theme-1 font-semibold' href='#'>".
-                                        $log->lead_details->name ."</a>"]) !!}
+                                    "<a class='text-theme-1 font-semibold' href='#'>". $name ."</a>"]) !!}
                                 @elseif ($log->category == 'inventory')
                                     @php
                                     $make = isset($log->inventory_details->make_details->name) ? $log->inventory_details->make_details->name : '';

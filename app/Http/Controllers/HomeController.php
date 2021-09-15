@@ -163,7 +163,7 @@ class HomeController extends Controller
         foreach($all_vehicle_makes as $make) {
             $cnt = Inventory::where('user_id', Auth::user()->id)->where('is_deleted', '!=', 1)->where('make', $make->make)->count();
             array_push($inventory_by_make, array(
-                'make_name' => $make->make_details->name,
+                'make_name' => $make->make_details ? $make->make_details->name : '',
                 'value' => $cnt
             ));
         }

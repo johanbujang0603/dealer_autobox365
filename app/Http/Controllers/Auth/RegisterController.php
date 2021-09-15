@@ -76,7 +76,6 @@ class RegisterController extends Controller
 
     public function register(Request $request){
         $this->validator($request->all())->validate();
-        // dd($request->first_name);
         $user = User::create([
             'name' => $request->name,
             'first_name' => $request->first_name,
